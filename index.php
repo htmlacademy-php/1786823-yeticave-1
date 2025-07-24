@@ -43,7 +43,7 @@ $lots = [
 ];
 
 function cena_format($price) {
-     return nomer_format(ceil($price), 0, ',', ' ').'₽';
+     return number_format(ceil($price), 0, ',', ' ').'₽';
 };
 
 ?>

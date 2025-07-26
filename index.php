@@ -132,7 +132,7 @@ function price_format($price) {
                         <div class="lot__rate">
                             <span class="lot__amount">Стартовая цена</span>
                               <span class="lot__cost"><?= $value['price'];?><b class="rub">р</b></span>
-                              <span class="lot__cost"><?= price_format_format($value['price']);?></span>
+                              <span class="lot__cost"><?= price_format($value['price']);?></span>
                               
                              
                         </div>
